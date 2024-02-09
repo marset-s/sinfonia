@@ -1,0 +1,113 @@
+
+.effectGlass{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 60%;
+  margin: 50px auto;
+  color: white;
+  
+  background: url('../admin-black.png') center/cover;
+
+
+  border-radius: 10px;
+  min-width: 300px;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  width: 70%;
+  gap: 30px;
+  text-align: center;
+  padding:40px;
+  background-color: rgba(255,255,255,0,3);
+  backdrop-filter: blur(4px);
+
+  }
+  
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .title h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin:auto auto;
+    gap:10px;
+
+  }
+  
+  .button-container a {
+    text-decoration: none;
+    margin-right: 10px;
+
+  }
+
+  a {
+    justify-content: center;
+
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .firstButton {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Didact Gothic', sans-serif;
+    transition: .5s;
+    font-size: 1.2em;
+  }
+
+  .firstButton:hover {
+    background-color: #dddcd9;
+    color:black;
+  }
+  .subtitulo {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.2;
+    text-align: center;
+    margin: 20px 0;
+    border-bottom: 1px solid #000000;
+  }
+  
+  .secondButton {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Didact Gothic', sans-serif;
+    transition: .5s;
+    font-size: 1.2em;
+    
+  }
+  
+  .secondButton:hover {
+    background-color: #dddcd9;
+    color:black;
+
+  }
+  
+  .warning {
+    background: yellow;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  

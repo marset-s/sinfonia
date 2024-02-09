@@ -1,0 +1,47 @@
+@import './variables.css';
+
+body {
+  font-family: 'Didact Gothic', sans-serif;
+  /* Otros estilos globales para el cuerpo */
+  
+}
+
+h1 {
+  color:var(--color-titulo-texto);
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color:black;
+}
+
+button {
+  background-color: var(--color-boton-fondo);
+  color: var(--color-boton-texto);
+  transition: .5s;
+  font-size: 1.2em;
+  font-family: 'Didact Gothic', sans-serif;
+  border:none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin:5px 10px;
+  cursor:pointer;
+}
+
+button:hover {
+  background-color: var(--color-boton-fondo-hover);
+}
+
+input[type=text] {
+  all:unset;
+  width: 300px;
+  background-color: rgb(202, 194, 194);
+  border-left: 1px dotted black;
+  border-bottom: 1px dotted black;;
+
+  padding: 8px;
+  margin: 10px;
+
+}

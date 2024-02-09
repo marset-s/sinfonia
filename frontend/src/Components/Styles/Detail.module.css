@@ -1,0 +1,186 @@
+.contenedorDetail{
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+.tituloYFlecha{
+   display: grid;
+   grid-template-columns: auto auto;
+   margin-top: 60px;
+}
+.titulo{
+   margin: 0;
+   margin-left: 50px;
+   padding-right: 30%;
+}
+
+.flecha{
+   display: grid;
+   place-content: end;
+   margin-right: 100px;
+   
+
+}
+.arrow:hover{
+   box-shadow: 0 10px 10px rgba(168, 165, 165, 0.11),
+    0 5px 20px #1f1c1c;
+
+}
+
+.arrow {
+   width: 30px;
+   height: 30px;
+   border-radius: 50px;
+   color: rgb(0, 0, 0);
+}
+
+.grande {
+   display: grid;
+   grid-template-columns: auto auto;
+   place-content: center;
+   height: 500px;
+   
+}
+
+.imagenGrande{
+width: 400px;
+height: 400px;
+box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.imagenGrande img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.imagenesChicas{
+   width: 200px;
+   height: 400px;
+   border: 2px solid rgb(255, 255, 255);
+   display: grid;
+   grid-template-columns: auto;
+
+}
+
+.imagenesChicas img {
+   width: 90%;
+   height: 90%;
+   object-fit: cover;
+
+   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+   margin: 5px;
+
+}
+
+
+.modalDetail{
+   display: grid;
+   place-content: end;
+   margin-right: 200px;
+}
+
+.modalDetail button{
+   margin-top: 20px;
+}
+
+
+.descript{
+   margin-top: 30px;
+   display: grid;
+   grid-template-columns: auto;
+   place-content: center;
+}
+
+.descript td{
+   margin-top: 20px;
+   margin-bottom: 50px;
+
+}
+
+.caracteristica{
+   margin: 0px 40px 0px 40px;
+   display: grid;
+   grid-template-columns: auto;
+   place-content: center;
+
+}
+
+.caracteristica h2{
+  place-self: center;
+
+}
+
+.imagenesCaracteristicas{
+      
+      border: 2px solid rgb(255, 255, 255);
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+   
+   }
+
+   .imagenesCaracteristicas img {
+      width: 90%;
+      height: 90%;
+      object-fit: cover;
+      box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+      margin: 5px;
+   
+   }
+
+   h2 {
+      color:black
+   }
+
+   .modalCompartir{
+      display: grid;
+      margin-top: 30px;
+      
+      
+   }
+   
+   
+   .btnCompartir{   
+      width: 40px;
+      height: 40px;
+      position: relative;
+      right: -25%;
+      bottom: -100%;
+      color: #292727;
+      border-radius: 10px;
+      
+     
+   }
+
+   .btnCompartir svg {
+      width: 30px;
+      height: 30px;
+      box-shadow: 0px 0px 6px 0px rgba(41, 40, 40, 0.5);
+    }
+
+   
+   .btnCompartir svg:hover{
+      box-shadow: 0 10px 10px rgba(212, 206, 206, 0.856),
+       0 5px 20px #b3afaf;
+   
+   }
+
+   .politicas{
+      margin-top: 40px
+   }
+
+   .divPoliticas {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 10px;
+   }
+
+   .divPoliticas div{
+      padding: 3% 15% 3% 15%;
+      text-align:justify;
+      box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+      
+   }
+   

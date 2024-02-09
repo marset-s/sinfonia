@@ -1,0 +1,57 @@
+.container{
+    background-color: var(--color-fondo);
+    width:100%;
+}
+.subtitulo {
+    margin:0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.containerCards {
+   display: grid;
+   grid-template-columns: auto auto;
+   justify-content: space-around;
+   margin: 0 auto;
+    width: 90%;
+   padding: 0 40px;
+   grid-column-gap: 20px;
+   
+}
+
+.firstButton {
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: grid;
+    place-self: center;
+  }
+
+
+.container img{
+    width: 200px;   
+    
+    object-fit: contain;
+    margin-top: 20px;
+    
+}
+
+.errorDiv{
+    display: grid;
+    grid-template-columns: auto;
+    place-content: center;
+    height: 500px;
+    
+    
+}
+.errorDiv img {
+    width: 300px;
+    
+}
+
+.errorH3img {
+    width: 600px;
+    text-align: center;
+}
+
